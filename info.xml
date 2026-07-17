@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<extension key="batchreminders" type="module">
+  <file>batchreminders</file>
+  <name>batchreminders</name>
+  <description>Throttles CiviCRM's built-in "Send Scheduled Reminders" job so it renders and sends only a small, configurable batch per cron run, with an optional pause switch — no separate cron scripts required.</description>
+  <license>AGPL-3.0</license>
+  <authors>
+    <author>
+      <name>magnolia61</name>
+      <email>richard.van.oosterhout@gmail.com</email>
+      <role>Maintainer</role>
+    </author>
+  </authors>
+  <urls>
+    <url desc="Main Extension Page">https://FIXME</url>
+    <url desc="Documentation">https://FIXME</url>
+    <url desc="Support">https://FIXME</url>
+    <url desc="Licensing">https://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2026-07-17</releaseDate>
+  <version>1.0.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.70</ver>
+  </compatibility>
+  <comments>See README.md for the problem this solves and how to configure it.</comments>
+  <classloader>
+    <psr0 prefix="CRM_" path="."/>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Batchreminders</namespace>
+    <format>25.01.1</format>
+    <angularModule>crmBatchreminders</angularModule>
+  </civix>
+  <mixins>
+    <mixin>setting-php@1.0.0</mixin>
+    <mixin>smarty-v2@1.0.3</mixin>
+    <mixin>menu-xml@1.0.0</mixin>
+  </mixins>
+</extension>

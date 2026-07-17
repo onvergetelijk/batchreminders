@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/batchreminders/status</path>
+    <page_callback>CRM_Batchreminders_Page_Status</page_callback>
+    <title>Batch Reminders Status</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
