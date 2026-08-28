@@ -38,4 +38,7 @@ Use Administer -> CiviMail -> Batch Reminders Status, or go directly to `civicrm
 
 ## License
 
-AGPL-3.0
+Copyright (C) 2026, magnolia61 <richard.van.oosterhout@gmail.com>
+
+Licensed under the GNU Affero General Public License 3.0. The full text is in
+[LICENSE.txt](LICENSE.txt).

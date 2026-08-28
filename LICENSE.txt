@@ -1,9 +1,3 @@
-Package: batchreminders
-Copyright (C) 2026, magnolia61 <richard.van.oosterhout@gmail.com>
-Licensed under the GNU Affero Public License 3.0 (below).
-
--------------------------------------------------------------------------------
-
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
